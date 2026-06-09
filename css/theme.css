@@ -506,3 +506,49 @@
 .scope-slide .basis {
   bottom: 18px;
 }
+
+/* --- stronger slide 5 overflow fix: force one-row scope cards --- */
+.scope-slide {
+  padding-top: 46px !important;
+  padding-bottom: 38px !important;
+}
+.scope-slide .eyebrow {
+  margin-bottom: 12px !important;
+}
+.scope-slide h2 {
+  font-size: 40px;
+  margin-bottom: 14px;
+  line-height: 1.04;
+}
+.scope-slide .scope-board {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 13px;
+}
+.scope-slide .goal-card.main {
+  grid-column: 1 / -1;
+  min-height: 82px;
+  padding: 17px 24px;
+}
+.scope-slide .goal-card {
+  min-height: 150px;
+  padding: 18px 20px;
+}
+.scope-slide .goal-card span {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.scope-slide .goal-card.main b {
+  font-size: 22px;
+  line-height: 1.18;
+}
+.scope-slide .goal-card:not(.main) b {
+  font-size: 17px;
+  line-height: 1.22;
+}
+.scope-slide .basis {
+  bottom: 15px;
+  padding-top: 7px;
+  font-size: 12.5px;
+}
