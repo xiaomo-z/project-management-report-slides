@@ -228,3 +228,247 @@
 .response-chips { display:grid; grid-template-columns: repeat(4,1fr); gap: 10px; margin-top: 14px; }
 .response-chips span { border-radius: 16px; padding: 13px 12px; background: linear-gradient(135deg,#fff7ed,#ecfdf5); color:var(--muted); font-size: 13.6px; line-height:1.28; box-shadow: 0 10px 22px rgba(16,24,40,.07); }
 .response-chips b { display:block; color:var(--green); font-size: 18px; margin-bottom: 5px; }
+
+/* --- vertical fill and visual balance pass ---
+   Goal: make each 16:9 slide feel fuller and less top-heavy without changing the content order. */
+.reveal section {
+  padding: 62px 66px 52px;
+}
+.reveal h2 {
+  margin-bottom: 32px;
+}
+.eyebrow {
+  margin-bottom: 18px !important;
+}
+.basis {
+  bottom: 24px;
+}
+
+/* Cover / ending: move the main message closer to optical center. */
+.cover {
+  padding-top: 84px !important;
+}
+.cover .subtitle {
+  margin-top: 28px;
+  max-width: 980px;
+}
+.cover .meta-row {
+  margin-top: 48px;
+}
+.ending {
+  padding-top: 92px !important;
+}
+.ending .takeaways {
+  margin-top: 46px;
+}
+.ending .final-line {
+  margin-top: 42px !important;
+}
+
+/* General content blocks: add vertical breathing and fuller cards. */
+.agenda-grid.five {
+  margin-top: 44px;
+}
+.agenda-grid.five .agenda-card {
+  min-height: 278px;
+  padding-top: 30px;
+}
+.agenda-grid.five .agenda-card b {
+  margin-bottom: 40px;
+}
+
+.split.two-one,
+.route-layout,
+.route-layout.enhanced,
+.budget-layout,
+.risk-wrap,
+.risk-wrap.rich {
+  margin-top: 16px;
+}
+.text-panel {
+  min-height: 300px;
+  padding: 42px 38px;
+}
+.signal-stack {
+  gap: 22px;
+}
+.signal-stack div {
+  min-height: 86px;
+}
+
+.stakeholder-map {
+  margin-top: 26px;
+}
+.stake-card {
+  min-height: 295px;
+  padding-top: 34px;
+}
+.stake-note {
+  margin-top: 26px;
+}
+
+.scope-board {
+  margin-top: 24px;
+  gap: 22px;
+}
+.goal-card {
+  min-height: 152px;
+  padding: 29px 30px;
+}
+.goal-card.main {
+  min-height: 118px;
+}
+
+.route-layout.enhanced .map-card,
+.decision-panel {
+  min-height: 292px;
+}
+.selection-grid {
+  margin-top: 26px;
+}
+.selection-grid div {
+  min-height: 125px;
+  padding: 20px 19px;
+}
+
+.itinerary {
+  margin-top: 26px;
+}
+.day-card {
+  min-height: 312px;
+  padding: 34px;
+}
+.control-strip {
+  margin-top: 28px;
+}
+.control-strip span {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.matrix {
+  margin-top: 28px;
+}
+.matrix div {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.wbs-root {
+  margin-top: 8px;
+  margin-bottom: 34px;
+}
+.wbs-grid {
+  gap: 22px;
+}
+.wbs-grid div {
+  min-height: 145px;
+  padding: 27px 24px;
+}
+
+.timeline {
+  margin-top: 28px;
+  gap: 15px;
+}
+.t-row b {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.milestones {
+  margin-top: 34px;
+}
+.milestones span {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.control-dashboard {
+  margin-top: 28px;
+}
+.control-dashboard div {
+  min-height: 326px;
+  padding-top: 34px;
+}
+
+.budget-layout {
+  margin-top: 28px;
+}
+.donut {
+  width: 350px;
+  height: 350px;
+}
+.budget-cards {
+  gap: 22px;
+}
+.budget-cards div {
+  min-height: 132px;
+  padding: 25px 23px;
+}
+
+.evm-layout {
+  margin-top: 28px;
+}
+.evm-card {
+  min-height: 265px;
+  padding: 35px 32px;
+}
+.formula-row {
+  margin-top: 32px;
+}
+.formula-row div {
+  min-height: 72px;
+}
+
+.quality-grid {
+  margin-top: 30px;
+}
+.quality-grid div {
+  min-height: 315px;
+  padding-top: 30px;
+}
+
+.risk-wrap.rich {
+  margin-top: 20px;
+}
+.risk-wrap.rich .risk-matrix div {
+  min-height: 54px;
+}
+.register-title {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.reg-row span {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.response-chips {
+  margin-top: 22px;
+}
+.response-chips span {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.comm-flow {
+  margin-top: 38px;
+}
+.comm-flow div {
+  min-height: 230px;
+  padding-top: 34px;
+}
+.conflict-box {
+  margin-top: 34px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.closing-grid {
+  margin-top: 34px;
+}
+.closing-grid div {
+  min-height: 335px;
+  padding-top: 34px;
+}
+.closing-grid strong {
+  margin-bottom: 36px;
+}
