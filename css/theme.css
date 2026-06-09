@@ -472,3 +472,37 @@
 .closing-grid strong {
   margin-bottom: 36px;
 }
+
+/* --- targeted overflow fix: slide 5 scope page --- */
+.scope-slide {
+  padding-top: 54px !important;
+  padding-bottom: 44px !important;
+}
+.scope-slide h2 {
+  margin-bottom: 18px;
+}
+.scope-slide .scope-board {
+  margin-top: 12px;
+  gap: 14px;
+}
+.scope-slide .goal-card {
+  min-height: 118px;
+  padding: 20px 24px;
+}
+.scope-slide .goal-card.main {
+  min-height: 94px;
+}
+.scope-slide .goal-card span {
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+.scope-slide .goal-card b {
+  font-size: 20px;
+  line-height: 1.24;
+}
+.scope-slide .goal-card.main b {
+  font-size: 24px;
+}
+.scope-slide .basis {
+  bottom: 18px;
+}
